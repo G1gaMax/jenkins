@@ -7,6 +7,7 @@ sudo yum install polkit -y
 sudo yum install java -y
 sudo yum install fontconfig java-11-openjdk -y
 sudo yum install jenkins -y
+sudo yum install git -y
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
 sudo systemctl status jenkins
